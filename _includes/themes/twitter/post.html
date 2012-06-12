@@ -1,31 +1,35 @@
-<div class="page-header">
-  <h1>{{ page.title }}</h1>
+<center>
+	<div class="page-header">
+	  <h1>{{ page.title }}</h1>
 
-  <div class="pagination">
-    <ul>
-    {% if page.previous %}
-      <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
-    {% else %}
-      <li class="prev disabled"><a>&larr; Previous</a></li>
-    {% endif %}
-    {% if page.next %}
-      <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
-    {% else %}
-      <li class="next disabled"><a>Next &rarr;</a>
-    {% endif %}
-    </ul>
+	  <div class="pagination">
+	    <ul>
+	    {% if page.previous %}
+	      <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+	    {% else %}
+	      <li class="prev disabled"><a>&larr; Previous</a></li>
+	    {% endif %}
+	    {% if page.next %}
+	      <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+	    {% else %}
+	      <li class="next disabled"><a>Next &rarr;</a>
+	    {% endif %}
+	    </ul>
+	  </div>
+
+	</div>
+</center>
+
+<div class="row"> 
+  <!-- am changing this next line to try and get a post to be centered when deployed -->
+  <div class="span12">
+ 	 <div class="span10">
+	    {{ content }}
+
+	    <hr>
+	    {% include JB/comments %}
+	  </div>
   </div>
-
-</div>
-
-<div class="row">
-  <div class="span8">
-    {{ content }}
-
-    <hr>
-    {% include JB/comments %}
-  </div>
-  
   <div class="span4">
     <h4>Published</h4>
     <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
