@@ -1,6 +1,0 @@
----
-layout: post
-title: Ball Is Rollng
----
-
-Well the blog is up and running. Compliments on the looks have come in but credit really goes to my friend - Mr. Bootstrap. Today was much more productive than day 1 - my new machine isn't offering up any problems now that Brian took a look at it, AND there were free/delicious burritos to be had from Illegal Pete's thanks to the monthly dev meeting where I got to meet the developers from the other offices. Bike ride home isn't looking too fun as the smoke from the High Park Wildfire starts to roll in, but I've got some ruby/rails notes at home that I'm looking forward to whipping out for the newly assigned "Haxxor News" project. The learning continues!!!
