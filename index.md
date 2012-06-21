@@ -1,21 +1,21 @@
 ---
 layout: page
 title: 
-tagline: Tracking Eli's exciting summer at Viget Labs in Boulder, CO
+tagline: Tracking Eli's exciting summer <br /> at Viget Labs in Boulder, CO
 ---
 
 </br>
 
-<div class="span7">
-{% for post in site.posts %}
-<!-- <div class="well"> -->
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2><br />
-{{ post.content }}
-<em>Posted on {{ post.date | date_to_long_string }}.</em>
-<br />
-<!-- </div> -->
-<br /><br />
-{% endfor %}
+<div>
+	{% for post in site.posts %}
+		<div class="post-head">
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		</div><br />
+		<div class="post-content">
+			{{ post.content }}
+	<em>Posted on {{ post.date | date_to_long_string }}.</em><br /><br /><br />
+		</div>
+	{% endfor %}
 </div>
 
 
