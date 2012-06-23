@@ -27,6 +27,15 @@ footer {
 	text-align: left;
 }
 
+.post-content > hidden {
+	display: none;
+}
+
+.disqus_thread {
+	font-family: Garamond, serif;
+}
+
+
 .title {
   color:#306E7F;
 }
@@ -36,6 +45,14 @@ footer {
 	font-family: Garamond, serif;
 	text-align: right;
 }
+
+.post-head > a > hidden {
+	color: #FF9933;
+	font-size :20px;
+	font-family: Garamond, serif;
+	text-align: right;
+}
+
 
 a {
   color:#306E7F;
@@ -85,6 +102,7 @@ a:hover {
 
 .page-header > h1{
   color: #63A9BC;
+	font-weight: normal;
 }
 
 .topbar .btn {
