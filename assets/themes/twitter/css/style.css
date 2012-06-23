@@ -9,6 +9,26 @@ html, body {
   margin-bottom: 0;
 }
 
+hidden{
+	color: #103E4F;
+}
+
+h2 {
+	font-family: Garamond, serif;
+}
+
+h3 {
+	font-family: Garamond, serif;
+}
+
+hidden-text{
+	color: #AAAAAA;
+}
+
+hidden > h1 {
+	color: #103E4F;
+}
+
 footer {
 	text-align: center;
 }
@@ -46,11 +66,8 @@ footer {
 	text-align: right;
 }
 
-.post-head > a > hidden {
-	color: #FF9933;
+.post-head > hidden {
 	font-size :20px;
-	font-family: Garamond, serif;
-	text-align: right;
 }
 
 
@@ -102,6 +119,10 @@ a:hover {
 
 .page-header > h1{
   color: #63A9BC;
+	font-weight: normal;
+}
+.page-header > h1 > hidden{
+  color: #103E4F;
 	font-weight: normal;
 }
 
