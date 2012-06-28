@@ -29,12 +29,12 @@ html, body {
 
 .navbar .brand{
     color:#AAAAAA;
-    font-family: Garamond, serif;
+    font-family: 'Josefin Slab', serif;
 }
 
 .navbar .brand2{
     color:#AAAAAA;
-    font-family: Garamond, serif;
+    font-family: 'Josefin Slab', serif;
 }
 
 .centerPlease {
@@ -44,7 +44,7 @@ html, body {
 .page-header {
     background-color: #EEEEEE;
     text-align: center;
-    font-family: Garamond, serif;
+    font-family: 'Josefin Slab', serif;
     padding: 10px 0px 40px;
 }
 
@@ -52,7 +52,7 @@ html, body {
 .page-header > h1{
     color: #222222;
     font-size: 60px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .page-header > h2 {
@@ -73,8 +73,8 @@ h4 {
 .post-head > a {
     color: #121212;
     font-size :24px;
-    font-family: Garamond, serif;
-    font-weight: normal;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
 }
 
 .post-head .line {
@@ -84,25 +84,26 @@ h4 {
 
 .date {
     text-align: right;
-    font-size: 15px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
 }
 
 .content {
+    padding-left: 40px;
     background-color: #EEEEEE;
     color: #555555;
     margin-left: auto;
     margin-right: auto;
     width: 50em;
+    font-family: 'Port Lligat Slab', serif;
+/*    text-align: justify;*/    
+    font-size: 15px;
 }
 
 .post-content {
-    text-align: left;
+    text-align: justify;
+    font-family: 'Port Lligat Slab', serif;
 }
-
-.post-content > hidden-text {
-    display: none;
-}
-
 
 footer {
     text-align: center;
