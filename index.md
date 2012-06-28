@@ -6,7 +6,7 @@ tagline:
 
 </br>
 
-<div>
+<div class="span9">
   {% for post in site.posts %}
     <div class="span2">
       <div class="date">
