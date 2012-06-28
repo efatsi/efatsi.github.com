@@ -1,6 +1,7 @@
 ---
 layout: post
-title: <hidden> Day 10.5 - Saturday </hidden>
+title: Saturday
+tagline: Day 10.5
 ---
 
 <hidden-text>

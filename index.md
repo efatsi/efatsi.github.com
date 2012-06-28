@@ -1,22 +1,30 @@
 ---
 layout: page
-title: 
-tagline: Tracking Eli's exciting summer <br /> at Viget Labs in Boulder, CO
+title: ELI'S VIGEBLOG
+tagline: 
 ---
 
 </br>
 
 <div>
-	{% for post in site.posts %}
-		<div class="post-head">
-			<a href="{{ post.url }}">{{ post.title }}</a>
-		</div><br />
-		<div class="post-content">
-			{{ post.content }}
-			{% if post.title != "Day 10.5 - Saturday" %}
-				<em>Posted on {{ post.date | date_to_long_string }}.</em><br /><br /><br />
-			{% endif %}
-		</div>
-	{% endfor %}
+  {% for post in site.posts %}
+    <div class="span2">
+      <div class="date">
+        {{ post.tagline }}
+      </div>
+    </div>
+    <div class="span6">
+      <div class="post-head">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <div class="line">
+          
+        </div>
+      </div><br />
+      <div class="post-content">
+        {{ post.content }}
+        <em>Posted on {{ post.date | date_to_long_string }}.</em><br /><br /><br /><br />
+      </div>
+    </div>
+  {% endfor %}
 </div>
 

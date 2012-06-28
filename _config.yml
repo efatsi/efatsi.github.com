@@ -10,7 +10,6 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Eli's Vigeblog
-tagline:
 author :
   name : Elias Fatsi
   email : elias.fatsi@viget.com

@@ -1,165 +1,132 @@
-/* Override some defaults */
+/*  site_background = EEEEEE
+    content_color = 555555
+    blog_title_color = 222222
+    navbar_text_color = AAAAAA
+    post_title_color = 121212
+    
+*/
+
 html, body {
-  background-color: #01171F;
-	color: #AAAAAA;
-  margin-left: auto;
-  margin-right: auto;
+    background-color: #EEEEEE;
+    margin-left: auto;
+    margin-right: auto;
 }
 .navbar {
-  margin-bottom: 0;
+    margin-bottom: 0;
+    width :50em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-hidden{
-	color: #103E4F;
+.navbar-inner{
+    width: 50em;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#111111;
 }
 
-h2 {
-	font-family: Garamond, serif;
+.navbar .brand{
+    color:#AAAAAA;
+    font-family: Garamond, serif;
+}
+
+.navbar .brand2{
+    color:#AAAAAA;
+    font-family: Garamond, serif;
+}
+
+.centerPlease {
+    text-align: center;
+}
+
+.page-header {
+    background-color: #EEEEEE;
+    text-align: center;
+    font-family: Garamond, serif;
+    padding: 10px 0px 40px;
+}
+
+
+.page-header > h1{
+    color: #222222;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.page-header > h2 {
+    color: #121212;
+    font-size: 40px;
+    
 }
 
 h3 {
-	font-family: Garamond, serif;
-}
-
-hidden-text{
-	color: #AAAAAA;
-}
-
-hidden > h1 {
-	color: #103E4F;
-}
-
-footer {
-	text-align: center;
-}
-
-/* The white background content wrapper */
-.content {
-  background-color: #01171F;
-  color: #BBB;
-  padding: 30px 100px 0px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
-
-.post-content {
-	text-align: left;
-}
-
-.post-content > hidden-text {
-	display: none;
-}
-
-.disqus_thread {
-	font-family: Garamond, serif;
+    color: #121212;
 }
 
 
-.title {
-  color:#306E7F;
+h4 {
+    color: #121212;
 }
 
 .post-head > a {
-	font-size :24px;
-	font-family: Garamond, serif;
-	text-align: right;
+    color: #121212;
+    font-size :24px;
+    font-family: Garamond, serif;
+    font-weight: normal;
 }
 
-.post-head > hidden {
-	font-size :20px;
+.post-head .line {
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
 }
 
+.date {
+    text-align: right;
+    font-size: 15px;
+}
+
+.content {
+    background-color: #EEEEEE;
+    color: #555555;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+}
+
+.post-content {
+    text-align: left;
+}
+
+.post-content > hidden-text {
+    display: none;
+}
+
+
+footer {
+    text-align: center;
+}
 
 a {
-  color:#306E7F;
-	font-size: 14px;
+    font-weight: bold;
+    color:#111111;text-decoration:none;
 }
 
 a:hover {
-  color: #63A9BC;
-  text-decoration:none;
-}
-.navbar .brand{
-	color:#63A9BC;
-	font-family: Garamond, serif;
-}
+    color:#777777;text-decoration:none;
+    }
 
-.navbar .brand:hover{
-	color:#63A9BF;
-}
-
-.navbar .nav>li>a {
-	color: #306E7F;
-	font-size: 18px;
-	font-family: Garamond, serif;
-}
-
-.navbar .nav>li>a:hover {
-	color:#63A9BC;
+.disqus_thread {
+    font-family: Garamond, serif;
 }
 
 .pagination a:hover,.pagination .active a{
-	background-color:#121212;
-}
-
-
-.page-header {
-  background-color: #01171F;
-	text-align: center;
-	font-family: Garamond, serif;
-  padding: 20px 0px 10px;
-  margin: -20px -20px 20px;
-}
-
-.page-header > h1 > small{
-  color: #63A9BC;
-	font-size: 35px;
-}
-
-.page-header > h1{
-  color: #63A9BC;
-	font-weight: normal;
-}
-.page-header > h1 > hidden{
-  color: #103E4F;
-	font-weight: normal;
+    background-color:#DEDEDE;
 }
 
 .topbar .btn {
-  border: 0;
+    border: 0;
 }
 
 
-/* tag_box ======================================================== */
-
-.tag_box {
-	list-style:none;
-	margin:0;
-	padding:5px 0 ;
-	overflow:hidden;
-}
-.tag_box li {
-	line-height:28px;
-}
-.tag_box.inline li {
-	float:left;
-}
-.tag_box a {
-	padding: 3px 6px;
-	margin: 2px;
-	background: #eee;
-	color:#005F6B;
-	border-radius: 3px;
-	text-decoration:none;
-}
-.tag_box a span{
-	vertical-align:super;
-	font-size:0.8em;
-}
-.tag_box a.active {
-	background:#57A957;
-	border:1px solid #4C964D;
-	color:#FFF;
-}
-	
