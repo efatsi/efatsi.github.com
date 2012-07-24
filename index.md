@@ -1,19 +1,18 @@
 ---
 layout: page
 title: ELI'S VIGEBLOG
-tagline: 
+tagline:
 ---
 
 </br>
-
-<div class="span9">
+<div id="all-posts">
   {% for post in site.posts %}
     <div class="span2">
       <div class="date">
         {{ post.tagline }}
       </div>
     </div>
-    <div class="span6">
+    <div class="span7">
       <div class="post-head">
         <a href="{{ post.url }}">{{ post.title }}</a>
         <div class="line">

@@ -1,6 +1,7 @@
 <center>
 	<div class="page-header">
 	  <h2>{{ page.title }}</h2>
+	  <h3>{{ page.date | date_to_long_string }}</h3>
 
 	  <div class="pagination">
 	    <ul>
@@ -19,16 +20,13 @@
 	  </div>
 
 	</div>
-</center>
-
-<div class="row"> 
+<div id="single-post"> 
 	{{ content }}
+
 <br />
 	<hr>
 	{% include JB/comments %}
-  <div class="span4">
-    <h4>Published</h4>
-    <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
+  <div class="span7">
 		{% unless page.tags == empty %}
     <h4>Tags</h4>
     <ul class="tag_box">
@@ -37,4 +35,6 @@
     </ul>
   {% endunless %}  
   </div>
-</div>
+</div>  
+</center>
+
